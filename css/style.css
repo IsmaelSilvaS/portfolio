@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#about-me{
+    height: calc(100vh - 56px);
+}
+
+#about-me h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#img-profile{
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#medias{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#skills{
+    height: 75vh;
+}
+
+#html:hover{
+    text-shadow: 0px 0px 35px #ff4500;
+}
+
+#css:hover{
+    text-shadow: 0px 0px 35px #008cff;
+}
+
+#javascript:hover{
+    text-shadow: 0px 0px 35px #d8e709;
+}
+
+#jquery:hover{
+    text-shadow: 0px 0px 35px #0066ff;
+}
+
+#bootstrap:hover{
+    text-shadow: 0px 0px 35px #8809c4;
+}
+
+#ldp:hover{
+    text-shadow: 0px 0px 35px #0a921c;
+}
+
+@keyframes move{
+    0%{
+        top: 0;
+    }
+    25%{
+        top: 20px;
+    }
+    50%{
+        top: 0;
+    }
+    75%{
+        top: -20px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+#projects img{
+    width: 700px;
+}
+
+#xp{
+    height: 100vh;
+}
+
+#xp-align{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#xp img{
+    width: 700px;
+}
+
+@media (max-width: 400px){
+    #medias{
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+    }
+}
+
+
+
+
+/* img{
+    position: relative;
+    animation-name: movePicture;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movePicture{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 20px;
+    }
+    100%{
+        top: 0px;
+    }
+} */
