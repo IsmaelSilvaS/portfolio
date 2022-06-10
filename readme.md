@@ -5,7 +5,7 @@
 <hr>
 
 <h4>Layout mobile</h4>
-<img src="./css/imgs/mobile.png" alt="Mobile">
+<img width="250px" src="./css/imgs/mobile.png" alt="Mobile">
 
 <hr>
 
