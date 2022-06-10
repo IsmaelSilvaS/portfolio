@@ -95,6 +95,14 @@
         left: 50%;
         transform: translate(-50%, -90%);
     }
+
+    #img-profile{
+        animation: none;
+    }
+    
+    #skills{
+        height: 100%;
+    }
 }
 
 
