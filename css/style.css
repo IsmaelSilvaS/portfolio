@@ -8,7 +8,7 @@
     height: calc(100vh - 56px);
 }
 
-#about-me h2{
+#about-me h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -89,11 +89,14 @@
     width: 700px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 600px){
     #medias{
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%, -90%);
+        top: 98%;
+        left: 30%;
+    }
+
+    #about-me{
+        height: 100vh;
     }
 
     #img-profile{
@@ -104,25 +107,3 @@
         height: 100%;
     }
 }
-
-
-
-
-/* img{
-    position: relative;
-    animation-name: movePicture;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes movePicture{
-    0%{
-        top: 0px;
-    }
-    50%{
-        top: 20px;
-    }
-    100%{
-        top: 0px;
-    }
-} */

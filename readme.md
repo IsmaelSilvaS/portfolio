@@ -5,12 +5,12 @@
 <hr>
 
 <h4>Layout mobile</h4>
-<img>
+<img src="./css/imgs/mobile.png" alt="Mobile">
 
 <hr>
 
 <h4>Layout web</h4>
-<img>
+<img src="./css/imgs/desktop.png" alt="Desktop">
 
 <hr>
 
