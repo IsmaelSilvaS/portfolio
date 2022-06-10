@@ -91,12 +91,12 @@
 
 @media (max-width: 600px){
     #medias{
-        top: 98%;
-        left: 30%;
+        top: 100%;
+        transform: translateY(-100%);
     }
 
     #about-me{
-        height: 100vh;
+        height: 100%;
     }
 
     #img-profile{
